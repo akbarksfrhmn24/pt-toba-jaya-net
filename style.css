@@ -1,0 +1,217 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 3000px;
+}
+
+/* navbar */
+
+.navbar {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar-brand .logo {
+  width: 50px;
+  height: 51px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: 600;
+}
+
+/* hero */
+
+#hero {
+  background: url("assets/img/hero/banner\(!\).jpg");
+  background-size: cover;
+  width: auto;
+  height: 1000px;
+  margin-top: -300px;
+}
+
+.head > h1 {
+  font-size: 40px;
+  margin-top: 30rem;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.head > p {
+  width: 428px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37px;
+  margin-top: 1rem;
+  padding-right: 2px;
+  color: #ffff;
+}
+
+/* About Us */
+
+.about {
+  padding-top: 147px;
+  padding-bottom: 147px;
+  padding-right: auto;
+  background-color: rgba(1, 122, 201, 0.06);
+}
+
+.about .heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0870c5;
+}
+
+.about .desc {
+  margin-top: 11px;
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* services */
+
+#services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+  background-color: #00408b;
+}
+
+#services .heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffff;
+}
+
+#services .desc {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-services {
+  background-color: #ffff;
+  width: 300px;
+  height: 534.86px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-title__services {
+  padding-top: 2rem;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.list {
+  list-style: none;
+}
+
+.card-harga {
+  font-weight: 800;
+  color: #0870c5;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 3px solid #00000000;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  font-weight: 700;
+  margin-left: 20%;
+  transform: translateY(450%);
+}
+
+.button:hover {
+  background-color: #0870c5;
+  color: #ffff;
+}
+
+/* keunggulan */
+#keunggulan {
+  padding-top: 147px;
+  padding-bottom: 140px;
+  background-color: rgba(1, 122, 201, 0.06);
+}
+
+#keunggulan .heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0870c5;
+}
+
+.about .desc {
+  margin-top: 11px;
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.card-keunggulan {
+  margin: 2rem;
+  width: 480px;
+  height: 449px;
+  left: 196px;
+  top: 2878px;
+
+  background: #ffffff;
+}
+
+.card-title__keunggulan {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* footer & contact */
+
+#contact {
+  background-image: url("assets/img/footer.png");
+  padding: 140px 0px 148px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact h3 {
+  font-weight: 700;
+  color: #ffff;
+  font-size: 30px;
+  padding-bottom: 64px;
+}
+
+.kontak a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-left: 18px;
+  color: #ffffff;
+}
+
+.medsos {
+  padding-top: 100px;
+}
+
+.medsos a {
+  text-decoration: none;
+  color: #ffff;
+}
