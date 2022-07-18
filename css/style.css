@@ -220,6 +220,9 @@ body {
 /* Responsive */
 
 @media screen and (max-width: 992px) {
+  .button {
+    margin-left: 8%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -235,4 +238,19 @@ body {
 }
 
 @media screen and (max-width: 350px) {
+  #hero {
+    width: 145%;
+  }
+  .about {
+    width: 145%;
+  }
+  #services {
+    width: 145%;
+  }
+  #keunggulan {
+    width: 145%;
+  }
+  #contact {
+    width: 145%;
+  }
 }
